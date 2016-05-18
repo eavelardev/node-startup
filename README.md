@@ -31,7 +31,6 @@ At the top of the **node-app** file, a few items are declared which are either p
 The items declared and passed to the Node.js application are:
 
 - **NODE_ENV** - the type of environment - **development**, **production**, etc. - can be read by the application to do things conditionally (defaults to **"production"**)
-- **PORT** - the port that the Node.js application should listen on - should be read by the application and used when starting its server (defaults to **"3000"**)
 - **CONFIG_DIR** - used for [node-config](https://github.com/lorenwest/node-config) (defaults to **"$APP_DIR"**); is required, but should be kept as the default if not needed
 
 ###Execution Config###
@@ -90,7 +89,7 @@ Finally, reboot to be sure the Node.js application starts automatically:
 
 ##Supported OS##
 
-Teste with mLinux
+Tested with mLinux
 
 ##LICENSE##
 
