@@ -17,7 +17,7 @@ If you are using [MongoDB](http://www.mongodb.org/), [Redis](http://redis.io/), 
 
 Clone the repo:
 
-    git clone https://github.com/chovy/node-startup.git
+    git clone https://github.com/eavelardev/node-startup.git
     cd node-startup/init.d
 
 Edit the **node-app** script with your settings from the **Configuration** section, then follow instructions in the **Running** section.
@@ -39,7 +39,7 @@ The items declared and passed to the Node.js application are:
 The items declared and used by the overall management of executing the application are:
 
 - **NODE_EXEC** - location of the Node.js package executable - useful to set if the executable isn't on your PATH or isn't a service (defaults to `$(which node)`)
-- **APP_DIR** - location of the Node.js application directory (defaults to **"/var/www/example.com"**)
+- **APP_DIR** - location of the Node.js application directory (defaults to **"/home/root"**)
 - **NODE_APP** - filename of the Node.js application (defaults to **"app.js"**)
 - **PID_DIR** - location of the PID directory (defaults to **"$APP_DIR/pid"**)
 - **PID_FILE** - name of the PID file (defaults to **"$PID_DIR/app.pid"**)
@@ -90,7 +90,7 @@ Finally, reboot to be sure the Node.js application starts automatically:
 
 ##Supported OS##
 
-Tested with Debian 6.0, but it should work on other Linux systems that use startup scripts in **/etc/init.d** (Red Hat, CentOS, Gentoo, Ubuntu, etc.).
+Teste with mLinux
 
 ##LICENSE##
 
